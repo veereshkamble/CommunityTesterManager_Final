@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Community Tester Manager</title>
+
+		<!-- for working of bootstrap and angular -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel='stylesheet' href='/stylesheets/style.css' />
+	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<!-- needed for UI -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<!-- custom angular -->
+		<script type="text/javascript" src="/js/mainCtrl.js"> </script>
+
+	</head>
+	<body class="landing" ng-app="sensorApp" ng-controller="mainPageCtrl">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper"  style="background-image: url(images/main.jpg); width: 1280; height: 1800;">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="">CMPE 281 Team 10</a></h1>
+						<nav id="nav" >
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu" style="background-color: black">
+										<ul>
+											<li><a href="" ng-click="index()">Home</a></li>
+											<li><a href="" ng-click="signup()">Sign Up</a></li>
+											<li><a href="" ng-click="login()">Login</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Banner -->
+					<section id="banner" >
+						<div class="inner">
+							<h2>Community Tester And Manager Platform</h2>
+							<p>Know the projects you are working on<br />
+							and manage your testers!<br />
+							</p>
+							<ul class="actions">
+								<li><a href="" ng-click="signup()" class="button special" style="background-color: #2989d8">Sign Up</a></li>
+							</ul>
+						</div>
+						<a href="#two" class="more scrolly">Our Features</a>
+					</section>
+
+
+
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/tester.jpg" alt="" /></div><div class="content">
+								<h2>Platform for Testers<br />
+								to choose the project</h2>
+								<p> The testers are allowed to choose the projects they are willing to
+								work on and monitor their progress.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/testerManager1.jpg" alt="" /></div><div class="content">
+								<h2>Platform for tester manager</h2>
+								<p>The tester manager's dashboard helps managers to assign particular projects to the existing testers.
+								The manager can also monitor the status of each tester and check the requirement for the clients.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/tools.jpg" alt="" /></div><div class="content">
+								<h2>Available online tools</h2>
+								<p>We are also providing best software tools available for easy testing.</p>
+							</div>
+						</section>
+					</section>
+
+
+
+				<!-- CTA -->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Already have an account?</h2>
+							</header>
+							<ul class="actions vertical">
+								<li><a href="" ng-click="login()" class="button fit special">Login</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

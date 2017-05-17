@@ -1,0 +1,135 @@
+<div ng-controller = "manageTesterCtrl">
+
+	<div class="alert alert-success col-md-12" id="success-alert1" style="display: none ">
+	<center> <strong> Successfully added the sensor</strong></center>
+	</div>
+
+	<div class="alert alert-danger col-md-12" id="success-alert2" style="display: none ">
+	<center> <strong> Sorry, actual sensor is not present in the location entered</strong></center>
+	</div>
+
+	<div class="alert alert-danger col-md-12" id="failure-alert" style="display: none ">
+	<center> <strong> Error while adding the sensor. Please try again </strong></center>
+	</div>
+
+<div class="hold-transition skin-blue sidebar-mini">
+  <div>
+    <section class="content">
+	<div class="row">
+		<div class="col-lg-5 col-xs-5">
+		</div>
+		<div class="col-lg-4 col-xs-4">
+			<h1> ASSIGN TESTERS </h1>
+			<br>
+		</div>
+		<div class="col-lg-4 col-xs-4">
+		</div>
+	</div>
+	<form>
+      <div class="row ">
+	  <section>
+	  <div class="col-lg-3 col-xs-3">
+	  </div>
+	  		<div class="col-lg-2 col-xs-2">
+			<label>Project Name</label>
+		</div>
+		<div class="col-lg-4 col-xs-4">
+			<input class="form-control" type="text" id="projectName" name="projectName" placeholder="Project Name" ng-model="projectName" required />
+		</div>
+		</section>
+		</div>
+
+	    <hr/>
+		<div class="row">
+		<div class="col-lg-3 col-xs-3">
+	  </div>
+		<div class="col-lg-2 col-xs-1">
+			<label>Tester Name</label>
+		</div>
+		<div class="col-lg-4 col-xs-4">
+			<input class="form-control" type="text" id="testerName" name="testerName" placeholder="Tester Name" ng-model="testerName" required />
+		</div>
+		</div>
+
+		 <hr/>
+
+	<div class="row">
+		<div class="col-lg-3 col-xs-3">
+		</div>
+		<div class="col-lg-2 col-xs-2">
+			<label>Velocity</label>
+		</div>
+		<div class="col-lg-4 col-xs-4">
+
+			<input class="form-control" type="number" id="velocity" name="velocity" placeholder="Velocity" ng-model="velocity" required />
+
+		</div>
+	</div>
+	<hr/>
+
+
+<hr/>
+
+<hr/>
+
+
+<hr/>
+<hr/>
+
+<div class="row">
+
+		<div class="col-lg-4 col-xs-4">
+		</div>
+		<div class="col-lg-2 col-xs-2">
+		</div>
+		<div class="col-lg-2 col-xs-2">
+			<input type="submit" class="btn btn-primary" value="ASSIGN" ng-click="manageTester()"></input>
+		</div>
+		<div class="col-lg-4 col-xs-4">
+		</div>
+	</div>
+
+	<div class="alert alert-success col-md-12" id="success-alert2" style="display: none ">
+	<center> <strong> Successfully Added Project! Please check the list of projects</strong></center>
+	</div>
+		</form>
+	</div>
+</div>
+</div>
+</div>
+
+
+<script src="plugins/jQuery/jQuery-2.2.0.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button);
+</script>
+<!-- Bootstrap 3.3.6 -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<!-- Sparkline -->
+<script src="plugins/sparkline/jquery.sparkline.min.js"></script>
+<!-- jvectormap -->
+<script src="plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="plugins/knob/jquery.knob.js"></script>
+<!-- daterangepicker -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- datepicker -->
+<script src="plugins/datepicker/bootstrap-datepicker.js"></script>
+<!-- Bootstrap WYSIHTML5 -->
+<script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<!-- Slimscroll -->
+<script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="plugins/fastclick/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/app.min.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="dist/js/pages/dashboard.js"></script>
+<!-- AdminLTE for demo purposes -->
