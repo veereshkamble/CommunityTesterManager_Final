@@ -1,20 +1,9 @@
 
 
-# Sensor_Data_Integrated_V1
+# Community Tester Manager
 
 
 
-## Usage
+## Term Project for CMPE281 - Cloud Computing
 
 
-
-## Developing
-
-
-
-### Tools
-
-Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)
- ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   
-
-Nodeclipse is free open-source project that grows with your contributions.
